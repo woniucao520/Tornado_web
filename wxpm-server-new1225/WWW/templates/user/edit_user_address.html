@@ -2,37 +2,37 @@
             {% for edit_user_address in edit_user_addresses %}
             <div style="text-align: left">
                 <p>
-                    <ons-input id="consignee" modifier="underbar" placeholder="收件人" style="width: 100%" float>{{ edit_user_address['consignee']}}</ons-input>
+                    <ons-input id="consignee" modifier="underbar" placeholder="收件人" style="width: 100%" float></ons-input>
 
                 </p>
                 <p>
-                    <ons-input id="mobile" modifier="underbar" placeholder="手机号" style="width: 100%" float>{{ edit_user_address['mobile'] }}</ons-input>
+                    <ons-input id="mobile" modifier="underbar" placeholder="手机号" style="width: 100%" float></ons-input>
                 </p>
                 <p>选择所在地区</p>
-
+                {% for user_address in user_addresses %}
                 <p>
-                    <ons-select id="sel-province" modifier="underbar" onclick="fn.User.Getprovince()">
-                        <option value="0">{{ edit_user_address['provice'] }}</option>
+                    <ons-select id="sel-province" modifier="underbar" onclick="fn.User.GetEditprovince()">
+                        <option value="{{  user_address.provice}}">{{ edit_user_address['provice'] }}</option>
                     </ons-select>
                 </p>
 
                 <p>
          <ons-select id="sel-city" modifier="underbar" onclick = "fn.User.Getcity(this)" >
-                        <option value="0" >{{ edit_user_address['city'] }}</option>
+                        <option value="{{ user_address.city }}" >{{ edit_user_address['city'] }}</option>
 
                     </ons-select>
                 </p>
                 <p>
                     <ons-select id="sel-district" modifier="underbar" onclick="fn.User.Getdistrict()">
-                        <option value="0">{{ edit_user_address['district'] }}</option>
+                        <option value="{{ user_address.district }}">{{ edit_user_address['district'] }}</option>
                     </ons-select>
                 </p>
-
+                {% end %}
                 <p>
-                    <ons-input id="edit_show_address" modifier="underbar" placeholder="详细地址" style="width: 100%" float>{{ edit_user_address['address'] }}</ons-input>
+                    <ons-input id="edit_show_address" modifier="underbar" placeholder="详细地址" style="width: 100%" float></ons-input>
                 </p>
                 <p>
-                    <ons-input id="edit_show_zipcode" modifier="underbar" placeholder="邮编" style="width: 100%" float>{{ edit_user_address['zipcode'] }}</ons-input>
+                    <ons-input id="edit_show_zipcode" modifier="underbar" placeholder="邮编" style="width: 100%" float></ons-input>
                 </p>
                 <p>
                     <label class="left">
@@ -46,10 +46,16 @@
                      <ons-button modifier="large" id="submit-new-address" onclick="fn.User.checkaddress()">确定</ons-button>
                 </p>
             </div>
-            {% end %}
-        </ons-card>
-<script>
+
+
+                <script>
                 $(document).ready(function () {
-                    $('#edit_show_zipcode').val('this is a test')
+                    //alert('{{ edit_user_address['consignee'] }}')
+                    $('#consignee').val('{{ edit_user_address['consignee'] }}')
+                    $('#mobile').val('{{ edit_user_address['mobile'] }}')
+                    $('#edit_show_address').val('{{ edit_user_address['address'] }}')
+                    $('#edit_show_zipcode').val('{{ edit_user_address['zipcode']}}')
                 });
-            </script>
+</script>
+                {% end %}
+        </ons-card>

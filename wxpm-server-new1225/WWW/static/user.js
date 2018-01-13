@@ -235,12 +235,38 @@ window.fn.User.checkaddress = function () {
     })
 
 }
+//编辑显示省列表
+window.fn.User.GetEditprovince = function () {
+    var provinceid = $('#sel-province').val();
+    //alert(provinceid);
+    localStorage.setItem('provinceid',provinceid);
 
+        $.ajax({
+        method: 'post',
+        url: '/user/show_add_address',
+        data: {
+            provinceid: localStorage.getItem('provinceid'),
+
+        },
+        dataType: 'json'
+
+    }).done(function (data) {
+        var len_province = data.length;
+        for(i=0;i<len_province;i++){
+            var option = '<option value="' + data[i].province_id + '">' + data[i].province_name + '</option>';
+                    $('#sel-province').children().append(option)
+        }
+
+
+    })
+}
 
 
 //存储选择省份的id
 window.fn.User.Getprovince=function () {
     var provinceid = $('#sel-province').val()
+
+    //alert(provinceid)
     localStorage.setItem('provinceid',provinceid);
     //切换省市区的时候，得清除市和区的记录
     $("#sel-city option:not(:first)").remove()  //删除除第一个以外的元素
@@ -336,6 +362,7 @@ window.fn.User.EditAddress = function (target) {
         dataType: 'json'
     }).done(function (data) {
         fn.load('edit_address.html');
+
     })
 }
 

@@ -769,7 +769,7 @@ class EditUserAddressHandler(BaseHandler):
             result_user_addresses.append(result_dict)
         print("编辑收货地址：")
         print(result_user_addresses)
-        self.render("user/edit_user_address.html",edit_user_addresses=result_user_addresses)
+        self.render("user/edit_user_address.html",edit_user_addresses=result_user_addresses,user_addresses=user_addresses)
 
     def post(self):
         edit_address_id = self.get_argument('edit_address_id')
