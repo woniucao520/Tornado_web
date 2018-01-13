@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="112a8db1-8621-4162-8171-08c6e876949c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/0912/ctcn111.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/0912/ctcn_homework.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/Pixabay.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/dictionaries/wineplus.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/Pixabay/spiders/tupian_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/myresult.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/Pixabay/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/.idea/workjob.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/123.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/workjob/workjob/spiders/zhilian.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/代理/xuewei/doublecolor/WinningNum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/代理/xuewei/doublecolor/mylog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/代理/xuewei/doublecolor/result.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/代理/xuewei/doublecolor/save2excel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/代理/xuewei/doublecolor/双色球.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../9月学习/用户登录逻辑/login_in.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/KLcao.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/KLcao/spiders/kaola_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../KLcao/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/MyCla.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/.idea/kaola.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_images/spiders/kaola_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/.idea/kaola.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_manytitle/spiders/kaola_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Product_kaola/kaola_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Taobao/My_Taobao.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Taobao/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Taobao/mongodb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Taobao/product_taobao.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Taobao/result.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Tbao/product_taobao.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/Python学习数据分析.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect01_numpy_examples/.ipynb_checkpoints/01_py3-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect01_numpy_examples/.ipynb_checkpoints/02_np-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect01_numpy_examples/.ipynb_checkpoints/03_mc-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect01_numpy_examples/01_py3.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect01_numpy_examples/02_np.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect01_numpy_examples/03_mc.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/01_pandas_data_structures-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/02_pandas_data_process-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/03_pandas_stats-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/04_pandas_multi_index-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/05_pandas_groupby-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/06_pandas_grouped_apply_transform-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/07_data_merge-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/08_data_concat-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/09_data_reshape-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/.ipynb_checkpoints/10_data_transform-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/01_pandas_data_structures.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/02_pandas_data_process.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/03_pandas_stats.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/04_pandas_multi_index.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/05_pandas_groupby.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/06_pandas_grouped_apply_transform.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/07_data_merge.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/08_data_concat.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/09_data_reshape.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/10_data_transform.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect02_pandas_examples/starcraft.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/01_matplotlib.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/01_matplotlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/02_seaborn.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/03_bokeh.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/04_eda.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/05_3dplot.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/lect03_matplotlib_example/lexpectancy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/利用Python进行数据分析.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/机器学习实战.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../codes/用Python写网络爬虫.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/Phone_images/badphone222 - 副本.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/Phone_images/badphone222.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/Phone_images/爬取手机网页 思路整理.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/spiders/images/2/sku/sku_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/spiders/images/3/sku/sku_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../down_images/spiders/tupian_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/.idea/jd.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/jd/spiders/jd_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../jd/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../kebilin_download/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../kebilin_download/__manifest__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../kebilin_download/api_kebilin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../kebilin_download/controller/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../kebilin_download/controller/api_kebilin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../kebilin_download/download_kebilin2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/.idea/zhihu.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhihu/zhihu/spiders/zhihutest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhilian/zhaoping123.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../zhilian/zhaoping999.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/20170826.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/birthplace.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/chinaland/HTTP协议 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/chinaland/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/chinaland/catchData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/chinaland/chinaLand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/maoyan/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/maoyan/move.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/maoyan/myfilms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../基础/myresult.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../逻辑练习/mind_exicting_0902.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../逻辑练习/mind_exicting_0903.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.idea/Python_studying.iml" afterPath="$PROJECT_DIR$/../../../../.idea/Python_studying.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/blog$blog.coverage" NAME="blog Coverage Results" MODIFIED="1515115686206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blog.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="203" column="25" lean-forward="false" selection-start-line="203" selection-start-column="11" selection-end-line="203" selection-end-column="25" />
+              <folding>
+                <element signature="e#612#625#0" expanded="true" />
+                <marker date="1515118527451" expanded="true" signature="2977:3005" ph="SELECT COUNT... entries" />
+                <marker date="1515118527451" expanded="true" signature="3837:3872" ph="SELECT * FRO... authors" />
+                <marker date="1515118527451" expanded="true" signature="3973:4002" ph="SELECT * FRO... authors" />
+                <marker date="1515118527451" expanded="true" signature="4122:4210" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="4449:4486" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="4711:4791" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="4933:5022" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="5424:5459" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="5790:5825" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="5972:6060" ph="UPDATE entri... " />
+                <marker date="1515118527451" expanded="true" signature="6552:6589" ph="SELECT * FRO... entries" />
+                <marker date="1515118527451" expanded="true" signature="6722:6847" ph="INSERT INTO entries... " />
+                <marker date="1515118527451" expanded="true" signature="7504:7589" ph="INSERT INTO authors... " />
+                <marker date="1515118527451" expanded="true" signature="8201:8239" ph="SELECT * FRO... authors" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/archive.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/feed.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/modules/entry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compose.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/compose.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_author.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/create_author.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/entry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/auth/create</find>
+      <find>entry.html</find>
+      <find>arch</find>
+      <find>raw</find>
+      <find>self.get_argument('next', '/')</find>
+      <find>self.redirect(self.get_argument(&quot;next&quot;, &quot;/&quot;))</find>
+      <find>home</find>
+      <find>compose</find>
+      <find>entry</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/create_author.html" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/compose.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/modules/entry.html" />
+        <option value="$PROJECT_DIR$/blog.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
+    <option name="y" value="164" />
+    <option name="width" value="1386" />
+    <option name="height" value="531" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.blog">
+    <configuration name="blog" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="blog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="112a8db1-8621-4162-8171-08c6e876949c" name="Default" comment="" />
+      <created>1514947615074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514947615074</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-16" y="164" width="1386" height="531" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.48789713" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316583" sideWeight="0.51508296" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3316583" sideWeight="0.48491704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.48487142" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.47881997" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#612#625#0" expanded="true" />
+            <marker date="1515118527451" expanded="true" signature="2977:3005" ph="SELECT COUNT... entries" />
+            <marker date="1515118527451" expanded="true" signature="3837:3872" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="3973:4002" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="4122:4210" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4449:4486" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4711:4791" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4933:5022" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5424:5459" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5790:5825" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5972:6060" ph="UPDATE entri... " />
+            <marker date="1515118527451" expanded="true" signature="6552:6589" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="6722:6847" ph="INSERT INTO entries... " />
+            <marker date="1515118527451" expanded="true" signature="7504:7589" ph="INSERT INTO authors... " />
+            <marker date="1515118527451" expanded="true" signature="8201:8239" ph="SELECT * FRO... authors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/tornado/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10070">
+          <caret line="542" column="0" lean-forward="false" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/compose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#612#625#0" expanded="true" />
+            <marker date="1515118527451" expanded="true" signature="2977:3005" ph="SELECT COUNT... entries" />
+            <marker date="1515118527451" expanded="true" signature="3837:3872" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="3973:4002" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="4122:4210" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4449:4486" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4711:4791" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4933:5022" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5424:5459" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5790:5825" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5972:6060" ph="UPDATE entri... " />
+            <marker date="1515118527451" expanded="true" signature="6552:6589" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="6722:6847" ph="INSERT INTO entries... " />
+            <marker date="1515118527451" expanded="true" signature="7504:7589" ph="INSERT INTO authors... " />
+            <marker date="1515118527451" expanded="true" signature="8201:8239" ph="SELECT * FRO... authors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/compose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#612#625#0" expanded="true" />
+            <marker date="1515118527451" expanded="true" signature="2977:3005" ph="SELECT COUNT... entries" />
+            <marker date="1515118527451" expanded="true" signature="3837:3872" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="3973:4002" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="4122:4210" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4449:4486" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4711:4791" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4933:5022" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5424:5459" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5790:5825" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5972:6060" ph="UPDATE entri... " />
+            <marker date="1515118527451" expanded="true" signature="6552:6589" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="6722:6847" ph="INSERT INTO entries... " />
+            <marker date="1515118527451" expanded="true" signature="7504:7589" ph="INSERT INTO authors... " />
+            <marker date="1515118527451" expanded="true" signature="8201:8239" ph="SELECT * FRO... authors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6726">
+          <caret line="392" column="8" lean-forward="false" selection-start-line="392" selection-start-column="8" selection-end-line="392" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/modules/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6726">
+          <caret line="392" column="8" lean-forward="false" selection-start-line="392" selection-start-column="8" selection-end-line="392" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/tornado/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="542" column="0" lean-forward="false" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/2129268673/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="1086" column="8" lean-forward="false" selection-start-line="1086" selection-start-column="8" selection-end-line="1086" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="169" column="13" lean-forward="false" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/modules/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/compose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="203" column="25" lean-forward="false" selection-start-line="203" selection-start-column="11" selection-end-line="203" selection-end-column="25" />
+          <folding>
+            <element signature="e#612#625#0" expanded="true" />
+            <marker date="1515118527451" expanded="true" signature="2977:3005" ph="SELECT COUNT... entries" />
+            <marker date="1515118527451" expanded="true" signature="3837:3872" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="3973:4002" ph="SELECT * FRO... authors" />
+            <marker date="1515118527451" expanded="true" signature="4122:4210" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4449:4486" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4711:4791" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="4933:5022" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5424:5459" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5790:5825" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="5972:6060" ph="UPDATE entri... " />
+            <marker date="1515118527451" expanded="true" signature="6552:6589" ph="SELECT * FRO... entries" />
+            <marker date="1515118527451" expanded="true" signature="6722:6847" ph="INSERT INTO entries... " />
+            <marker date="1515118527451" expanded="true" signature="7504:7589" ph="INSERT INTO authors... " />
+            <marker date="1515118527451" expanded="true" signature="8201:8239" ph="SELECT * FRO... authors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

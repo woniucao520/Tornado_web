@@ -1,0 +1,41 @@
+ <ons-card>
+
+
+        <ons-button id="add-new-address" style="line-height: 30px;" modifier="large"  onclick="fn.load('add-new-shopaddress.html')">新增收货地址</ons-button>
+
+     <ons-list style="margin-top:30px">
+
+     {% for result_user_address in result_user_addresses %}
+        <ons-list-item>{{ result_user_address['consignee'] }}</ons-list-item>
+
+         <ons-list-item>
+             <!--左边显示省市区以及地址-->
+            <div class="left">
+                <ons-col>
+                    <ons-raw>{{ result_user_address['mobile'] }}</ons-raw>
+                    <ons-raw>
+                        <ons-col>
+                            {{','.join(result_user_address['areas']) }}
+                        </ons-col>
+                    </ons-raw>
+                    <ons-raw>{{ result_user_address['address'] }}</ons-raw>
+                </ons-col>
+            </div>
+
+            <div class="right">
+                 <ons-icon icon="md-face" class="list-item__icon"></ons-icon>
+            </div>
+         </ons-list-item>
+         <ons-list-item>
+            <div class="left">
+                <ons-button data-edit-address-id={{result_user_address['id']}}  modifier="quiet" style="padding-top: 0;font-size: 120%;" onclick="fn.User.EditAddress(this)"><ons-icon icon="fa-edit"></ons-icon></ons-button>
+            </div>
+            <div class="right">
+                <ons-button  data-delete-address-id={{result_user_address['id']}}  modifier="quiet" style="padding-top: 0;font-size: 120%;" onclick="fn.User.AddressDelete(this)"><ons-icon icon="fa-trash"></ons-icon></ons-button>
+            </div>
+        </ons-list-item>
+
+     {% end %}
+     </ons-list>
+
+ </ons-card>

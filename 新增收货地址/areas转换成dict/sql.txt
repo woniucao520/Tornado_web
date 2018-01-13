@@ -1,0 +1,12 @@
+set group_concat_max_len = 20000;
+select province_id,province,city_id,city,group_concat(area) as areas
+from (
+	select a.id as province_id,a.name as province,b.id as city_id,b.name as city,c.id as area_id,c.name as area
+	from b2c_areas as a
+	left join b2c_areas as b on a.id=b.parent
+	left join b2c_areas as c on b.id=c.parent
+	where a.level in (1,2)
+	order by a.id,b.id
+) as a
+where a.province_id<=(select max(id) from b2c_areas where level=1)
+group by province_id,province,city_id,city

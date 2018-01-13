@@ -1,0 +1,13 @@
+mysql.config:
+  conn:
+    host: 'localhost'
+    port: 3306
+    db: 'wxpm'
+    user: 'root'
+    password: '123456'
+    charset: 'utf8'
+
+
+
+
+
