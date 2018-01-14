@@ -93,6 +93,9 @@ class Application(tornado.web.Application):
             # 第三步：提交入库操作
             (r"/user/address_to_database",AddressToSqlHandler),
 
+            # 第四步：更新编辑后的地址
+            (r"/user/update_address_database",UpdateAddressHandler),
+
             # 删除地址
             (r"/user/delete_user_address",DeleteUserAddressHandler),
 
@@ -653,7 +656,8 @@ class StartAddressHandler(BaseHandler):
         user_id = self.get_argument('user_id')
 
         user_addresses = self.session.query(MyProductAddress.id, MyProductAddress.consignee, MyProductAddress.mobile,
-                                  MyProductAddress.provice, MyProductAddress.city,MyProductAddress.district,MyProductAddress.address).all()
+                        MyProductAddress.provice, MyProductAddress.city,MyProductAddress.district,
+                        MyProductAddress.address,MyProductAddress.is_default).order_by(MyProductAddress.is_default.desc(),MyProductAddress.updated_at.desc()).limit(5).all()
         print("用户地址是：")
         print(user_addresses)
 
@@ -666,6 +670,7 @@ class StartAddressHandler(BaseHandler):
             result_dict['consignee'] = user_address.consignee
             result_dict['mobile'] = user_address.mobile
             result_dict['address'] = user_address.address
+            result_dict['is_default'] = user_address.is_default
             result_dict['areas'] = []
 
             for china_area in china_areas:
@@ -687,6 +692,8 @@ class ShopAddressHandler(BaseHandler):
 
     def get(self):
         user_id = self.get_argument('user_id')
+        print("self_argument is:")
+        print(user_id)
 
         # 获取数据库里的省，市，区的数据
         area_provinces = self.session.query(ChinaAreas.id,ChinaAreas.parent,ChinaAreas.name,ChinaAreas.level).filter(ChinaAreas.level == 1).all()
@@ -715,7 +722,14 @@ class AddressToSqlHandler(BaseHandler):
         area = self.get_argument('area')
         address = self.get_argument('address')
         zipcode = self.get_argument('zipcode')
+        is_default = self.get_argument('is_default')
+        print("++++++====================================================================")
+        print('is_default:')
+        print(is_default)
         create_time = datetime.now()
+        # 对是否默认进行判断
+
+
 
         # 对应入库
         MyAddress.consignee = consignee
@@ -727,6 +741,8 @@ class AddressToSqlHandler(BaseHandler):
         MyAddress.address = address
         MyAddress.zipcode = zipcode
         MyAddress.created_at = create_time
+        MyAddress.is_default = is_default
+
 
         self.session.add(MyAddress)
 
@@ -738,6 +754,49 @@ class AddressToSqlHandler(BaseHandler):
 
         self.write(json.JSONEncoder().encode(data))
 
+
+# 更新地址，并入库
+class UpdateAddressHandler(BaseHandler):
+
+    def post(self):
+        edit_address_id = self.get_argument('edit_address_id')
+        consignee = self.get_argument('consignee')
+        user_id = self.get_argument('user_id')
+        mobile = self.get_argument('mobile')
+        province = self.get_argument('province')
+        city = self.get_argument('city')
+        district = self.get_argument('district')
+        address = self.get_argument('address')
+        zipcode = self.get_argument('zipcode')
+        is_default = self.get_argument('is_default')
+        updated_time =datetime.now()
+
+
+        try:
+            self.session.query(MyProductAddress.consignee,MyProductAddress.mobile,MyProductAddress.provice,MyProductAddress.city,MyProductAddress.consignee,
+                               MyProductAddress.address,MyProductAddress.is_default).filter(MyProductAddress.id == edit_address_id).update({MyProductAddress.consignee:consignee,
+                                                                                                                                            MyProductAddress.mobile:mobile,
+                                                                                                                                            MyProductAddress.provice:province,
+                                                                                                                                            MyProductAddress.city:city,
+                                                                                                                                            MyProductAddress.district:district,
+                                                                                                                                            MyProductAddress.address:address,
+                                                                                                                                            MyProductAddress.zipcode:zipcode,
+                                                                                                                                            MyProductAddress.is_default:is_default,
+                                                                                                                                            MyProductAddress.updated_at:updated_time})
+            self.session.commit()
+        except DBAPIError as e:
+            self.session.rollback()
+            data = {'result':'error','msg':e.args[0]}
+            self.write(json.JSONEncoder().encode(data))
+        else:
+            data = {'result': 'success', 'msg': '地址编辑成功'}
+            self.write(json.JSONEncoder().encode(data))
+        finally:
+            self.session.close()
+
+
+
+
 # 显示单个编辑地址
 class EditUserAddressHandler(BaseHandler):
 
@@ -745,7 +804,7 @@ class EditUserAddressHandler(BaseHandler):
         edit_address_id = self.get_argument('edit_address_id')
         user_addresses = self.session.query(MyProductAddress.id, MyProductAddress.consignee, MyProductAddress.mobile,
                                             MyProductAddress.provice, MyProductAddress.city, MyProductAddress.district,
-                                            MyProductAddress.address,MyProductAddress.zipcode).filter(MyProductAddress.id == edit_address_id)
+                                            MyProductAddress.address,MyProductAddress.zipcode,MyProductAddress.is_default).filter(MyProductAddress.id == edit_address_id)
         print("单独的一份值")
         print(user_addresses)
         china_areas = self.session.query(ChinaAreas.id, ChinaAreas.parent, ChinaAreas.name).all()
@@ -757,6 +816,7 @@ class EditUserAddressHandler(BaseHandler):
             result_dict['mobile'] = user_address.mobile
             result_dict['address'] = user_address.address
             result_dict['zipcode'] =user_address.zipcode
+            result_dict['is_default']=user_address.is_default
 
 
             for china_area in china_areas:
