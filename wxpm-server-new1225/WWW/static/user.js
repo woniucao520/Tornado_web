@@ -157,7 +157,7 @@ window.fn.User.numregister = function () {
 }
 
 
-// 用户新增加收货地址
+//点击确定按钮，提交用户信息，并验证
 window.fn.User.checkaddress = function () {
     var consignee = $('#add-new-shopaddress #consignee').val();
     var mobile = $('#add-new-shopaddress #mobile').val()
@@ -172,6 +172,14 @@ window.fn.User.checkaddress = function () {
 
     var address = $('#add-new-shopaddress #address').val();
     var zipcode =$('#add-new-shopaddress #zipcode').val();
+    var is_default = $('[input-id="check-set-default"]').prop('checked'); //判断复选框是否选中
+
+    if(is_default == true){
+        is_default =1
+    }else{
+        is_default =0
+    }
+
     if(consignee.length <= 0){
         ons.notification.alert('请填写收件人');
         return;
@@ -216,6 +224,7 @@ window.fn.User.checkaddress = function () {
                 area:area,
                 address:address,
                 zipcode:zipcode,
+                is_default:is_default,
                 user_id:localStorage.getItem('wx-user-id')
             },
             dataType: 'json'
@@ -235,11 +244,105 @@ window.fn.User.checkaddress = function () {
     })
 
 }
+
+//编辑更新地址，点击确认提交,信息的验证
+window.fn.User.Eidtcheckaddress = function () {
+
+    var consignee = $('#consignee').val();
+    var mobile = $('#mobile').val()
+
+    var province = $('#sel-province').val();
+    var city =$('#sel-city').val();
+    var district=$('#sel-district').val();
+
+    //将获取的区的id存储到localstrom里
+    localStorage.setItem('area_id',district);
+    var address = $('#address').val();
+    var zipcode =$('#zipcode').val();
+    var is_default = $('[input-id="check-set-default"]').prop('checked'); //判断复选框是否选中
+
+    if(is_default == true){
+        is_default =1
+    }else{
+        is_default =0
+    }
+
+    if(consignee.length <= 0){
+        ons.notification.alert('请填写收件人');
+        return;
+    }
+
+    if (mobile.length<=0){
+        ons.notification.alert('请填写收货号码');
+        return;
+    }
+
+    if(province == 0){
+        ons.notification.alert('填写省');
+        return;
+    }
+    if(city == 0){
+        ons.notification.alert('选择市');
+        return;
+    }
+    if (district == 0){
+        ons.notification.alert('选择区');
+        return;
+    }
+
+    if(address.length<=0){
+        ons.notification.alert("请填写收货地址");
+        return;
+    }
+
+    if(zipcode.length<=0){
+        ons.notification.alert("注意填写邮政编码！");
+        return;
+    }
+    $.ajax({
+        method:'post',
+        url:'/user/update_address_database',
+        data:{
+            edit_address_id: localStorage.getItem('edit_address_id'),
+            consignee:consignee,
+            mobile:mobile,
+            province:province,
+            city:city,
+            district:district,
+            address:address,
+            zipcode:zipcode,
+            is_default:is_default,
+            user_id:localStorage.getItem('wx-user-id')
+
+        },
+        dataType:'json',
+
+    }).done(function (data) {
+        if(data.result=='success'){
+            ons.notification.alert(data.msg);
+            fn.pushPage({id:'shop-address.html',title:'add_address_list'})
+        }
+
+    })
+
+
+
+}
+
+
 //编辑显示省列表
 window.fn.User.GetEditprovince = function () {
     var provinceid = $('#sel-province').val();
     //alert(provinceid);
     localStorage.setItem('provinceid',provinceid);
+    //点击切换省的时候，注意清空下面市和区的数据
+    $("#sel-province option:not(:first)").hide()
+    $("#sel-province option:first-child").text('选择省')  //
+    $("#sel-city option:first-child").text('选择城市')  //
+    $("#sel-district option:first-child").text('选择区/县')   //
+    $("#sel-city option:not(:first)").remove()  //删除除第一个以外的元素
+    $("#sel-district option:not(:first)").remove()   //隐藏第一个以外的元素
+
 
         $.ajax({
         method: 'post',
@@ -259,6 +362,7 @@ window.fn.User.GetEditprovince = function () {
 
 
     })
+
 }
 
 
@@ -274,10 +378,10 @@ window.fn.User.Getprovince=function () {
 
 }
 
-//存储选择市的id,并显示对应的城市
+//存储选择市的id,并显示对应的城市删除
 window.fn.User.Getcity = function (target) {
-    $("#sel-city option:not(:first)").hide()   //删除除第一个以外的元素
-    $("#sel-district option:not(:first)").remove()   //隐藏第一个以外的元素
+  $("#sel-city option:not(:first)").hide()   //删除除第一个以外的元素
+    $("#sel-district option:not(:first)").remove()   //删除第一个以外的元素
 
     $.ajax({
         method: 'post',

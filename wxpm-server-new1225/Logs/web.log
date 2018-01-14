@@ -604,3 +604,6 @@
 2018-01-13 20:38:48 - tornado.access - WARNING - 404 GET /favicon.ico (::1) 9.00ms
 2018-01-13 21:16:26 - tornado.access - WARNING - 404 GET /favicon.ico (::1) 9.00ms
 2018-01-13 21:24:11 - tornado.access - WARNING - 404 GET /favicon.ico (::1) 8.00ms
+2018-01-14 16:10:28 - tornado.access - WARNING - 404 GET /favicon.ico (::1) 7.00ms
+2018-01-14 21:31:21 - tornado.access - ERROR - 500 GET /user/start_add_address?user_id=1 (::1) 1248.07ms
+2018-01-14 21:33:35 - tornado.access - ERROR - 500 GET /user/edit_user_address?edit_address_id=5 (::1) 1309.07ms

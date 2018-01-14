@@ -6,8 +6,11 @@
      <ons-list style="margin-top:30px">
 
      {% for result_user_address in result_user_addresses %}
-        <ons-list-item>{{ result_user_address['consignee'] }}</ons-list-item>
-
+        <ons-list-item>{{ result_user_address['consignee'] }}
+        {% if  result_user_address['is_default'] == 1%}
+            <p style="color:blue">[默认地址]</p>
+        {% end %}
+        </ons-list-item>
          <ons-list-item>
              <!--左边显示省市区以及地址-->
             <div class="left">

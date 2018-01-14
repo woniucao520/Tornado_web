@@ -29,10 +29,10 @@
                 </p>
                 {% end %}
                 <p>
-                    <ons-input id="edit_show_address" modifier="underbar" placeholder="详细地址" style="width: 100%" float></ons-input>
+                    <ons-input id="address" modifier="underbar" placeholder="详细地址" style="width: 100%" float></ons-input>
                 </p>
                 <p>
-                    <ons-input id="edit_show_zipcode" modifier="underbar" placeholder="邮编" style="width: 100%" float></ons-input>
+                    <ons-input id="zipcode" modifier="underbar" placeholder="邮编" style="width: 100%" float></ons-input>
                 </p>
                 <p>
                     <label class="left">
@@ -43,7 +43,7 @@
                     </label>
                 </p>
                 <p>
-                     <ons-button modifier="large" id="submit-new-address" onclick="fn.User.checkaddress()">确定</ons-button>
+                     <ons-button modifier="large" id="submit-new-address" onclick="fn.User.Eidtcheckaddress()">确定</ons-button>
                 </p>
             </div>
 
@@ -53,8 +53,15 @@
                     //alert('{{ edit_user_address['consignee'] }}')
                     $('#consignee').val('{{ edit_user_address['consignee'] }}')
                     $('#mobile').val('{{ edit_user_address['mobile'] }}')
-                    $('#edit_show_address').val('{{ edit_user_address['address'] }}')
-                    $('#edit_show_zipcode').val('{{ edit_user_address['zipcode']}}')
+                    $('#address').val('{{ edit_user_address['address'] }}')
+                    $('#zipcode').val('{{ edit_user_address['zipcode']}}')
+                    var is_default = {{ edit_user_address['is_default'] }}
+                    if( is_default == 1){
+                    $("[input-id='check-set-default']").prop('checked', true);
+                    }else{
+                    $("[input-id='check-set-default']").prop('checked', false);
+
+                    }
                 });
 </script>
                 {% end %}

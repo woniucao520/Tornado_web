@@ -3,22 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d2a9767a-38ba-440a-89c0-c2278b45c380" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ORM/Tables/ChinaAreas.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Install.py" afterPath="$PROJECT_DIR$/Install.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserWithdraw.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserWithdraw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/templates/user/login.html" afterPath="$PROJECT_DIR$/WWW/templates/user/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/OrderSub.py" afterPath="$PROJECT_DIR$/ORM/Tables/OrderSub.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/templates/base.html" afterPath="$PROJECT_DIR$/WWW/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Commands/UserHandler.py" afterPath="$PROJECT_DIR$/Commands/UserHandler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/Product.py" afterPath="$PROJECT_DIR$/ORM/Tables/Product.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/static/b2c.js" afterPath="$PROJECT_DIR$/WWW/static/b2c.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/Order.py" afterPath="$PROJECT_DIR$/ORM/Tables/Order.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserAssets.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserAssets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Install.py" afterPath="$PROJECT_DIR$/Install.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserMoney.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserMoney.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/User.py" afterPath="$PROJECT_DIR$/ORM/Tables/User.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserBank.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserBank.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserMeta.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserMeta.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/templates/base.html" afterPath="$PROJECT_DIR$/WWW/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/Order.py" afterPath="$PROJECT_DIR$/ORM/Tables/Order.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/static/common.js" afterPath="$PROJECT_DIR$/WWW/static/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/OrderSub.py" afterPath="$PROJECT_DIR$/ORM/Tables/OrderSub.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/User.py" afterPath="$PROJECT_DIR$/ORM/Tables/User.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserAssets.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserAssets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserMeta.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserMeta.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserBank.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserBank.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/templates/user/login.html" afterPath="$PROJECT_DIR$/WWW/templates/user/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/templates/user/console.html" afterPath="$PROJECT_DIR$/WWW/templates/user/console.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WWW/static/b2c.js" afterPath="$PROJECT_DIR$/WWW/static/b2c.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ORM/Tables/UserWithdraw.py" afterPath="$PROJECT_DIR$/ORM/Tables/UserWithdraw.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +33,7 @@
     <SUITE FILE_PATH="coverage/wxpm_server_new1216$tmp_test.coverage" NAME="tmp_test Coverage Results" MODIFIED="1513766246557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxpm_server_new1225$Install.coverage" NAME="Install Coverage Results" MODIFIED="1515734527222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxpm_server_new1225$maths_test.coverage" NAME="maths_test Coverage Results" MODIFIED="1514178313420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/wxpm_server_new1225$tmp_test.coverage" NAME="tmp_test Coverage Results" MODIFIED="1515860278813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxpm_server_new1225$tmp_test.coverage" NAME="tmp_test Coverage Results" MODIFIED="1515943920659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxpm_server_new1215$tmp_test.coverage" NAME="tmp_test Coverage Results" MODIFIED="1513580191351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxpm_server_new1225$handle_district_to_json.coverage" NAME="handle_district_to_json Coverage Results" MODIFIED="1515861502264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxpm_server_new1225$handle_district_to_json2.coverage" NAME="handle_district_to_json2 Coverage Results" MODIFIED="1515513489834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="WebServer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="771" column="106" lean-forward="false" selection-start-line="771" selection-start-column="92" selection-end-line="771" selection-end-column="106" />
+            <state relative-caret-position="110">
+              <caret line="659" column="149" lean-forward="false" selection-start-line="659" selection-start-column="149" selection-end-line="659" selection-end-column="149" />
               <folding>
                 <element signature="e#8#19#0" expanded="true" />
               </folding>
@@ -60,95 +60,24 @@
       <file leaf-file-name="show_add_address.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WWW/templates/user/show_add_address.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state relative-caret-position="95">
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WWW/static/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="240" column="6" lean-forward="false" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
+            <state relative-caret-position="171">
+              <caret line="339" column="37" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
               <folding>
-                <marker date="1515861992145" expanded="true" signature="18996:19046" ph="..." />
-                <marker date="1515861992145" expanded="true" signature="19509:19527" ph="..." />
-                <marker date="1515861992145" expanded="true" signature="23045:23055" ph="..." />
-                <marker date="1515861992145" expanded="true" signature="23097:23107" ph="..." />
-                <marker date="1515861992145" expanded="true" signature="23319:23333" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forget_password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WWW/templates/user/forget_password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="1685" column="0" lean-forward="false" selection-start-line="1685" selection-start-column="0" selection-end-line="1685" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="handle_district_to_json.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handle_district_to_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="82" column="47" lean-forward="true" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
-              <folding>
-                <marker date="1515663812492" expanded="true" signature="307:354" ph="select id,pa... b2c_areas" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_user_address.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WWW/templates/user/edit_user_address.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="13" column="94" lean-forward="false" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#ons-card#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ons-input#0;n#p#0;n#div#0;n#ons-card#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_add_address.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WWW/templates/user/start_add_address.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="3" column="138" lean-forward="false" selection-start-line="3" selection-start-column="132" selection-end-line="3" selection-end-column="138" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WWW/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="1125" column="13" lean-forward="true" selection-start-line="1119" selection-start-column="12" selection-end-line="1125" selection-end-column="13" />
-              <folding>
-                <marker date="1515827648834" expanded="false" signature="43939:43955" ph="..." />
-                <marker date="1515827648834" expanded="false" signature="44083:44094" ph="..." />
-                <marker date="1515827648834" expanded="false" signature="44256:44267" ph="..." />
-                <marker date="1515827648834" expanded="false" signature="45128:45139" ph="..." />
-                <marker date="1515827648834" expanded="false" signature="45301:45312" ph="..." />
+                <marker date="1515942569029" expanded="true" signature="21541:21591" ph="..." />
+                <marker date="1515942569029" expanded="true" signature="22054:22072" ph="..." />
+                <marker date="1515942569029" expanded="true" signature="25590:25600" ph="..." />
+                <marker date="1515942569029" expanded="true" signature="25642:25652" ph="..." />
+                <marker date="1515942569029" expanded="true" signature="25864:25878" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,8 +86,42 @@
       <file leaf-file-name="message_board.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WWW/templates/user/message_board.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="74" column="59" lean-forward="true" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#ons-icon#0;n#ons-button#4;n#div#2;n#ons-list-item#0;n#ons-list#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WWW/templates/user/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_add_address.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WWW/templates/user/start_add_address.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="33" column="159" lean-forward="true" selection-start-line="33" selection-start-column="159" selection-end-line="33" selection-end-column="159" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#ons-list-item#0;n#ons-list#0;n#ons-card#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_user_address.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WWW/templates/user/edit_user_address.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,12 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Getci</find>
-      <find>done</find>
-      <find>show_add</find>
-      <find>新罗区</find>
-      <find>time</find>
-      <find>User()</find>
       <find>add</find>
       <find>address</find>
       <find>num</find>
@@ -206,6 +163,12 @@
       <find>getConsoleHtml</find>
       <find>start_</find>
       <find>edit</find>
+      <find>/user/show_add_address</find>
+      <find>/user/address_to_database</find>
+      <find>edit_address_id</find>
+      <find>update</find>
+      <find>order_by</find>
+      <find>is_default</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Administrator\tmp\wxpm-server</dir>
@@ -237,7 +200,6 @@
         <option value="$PROJECT_DIR$/Test/maths_test.py" />
         <option value="$PROJECT_DIR$/ORM/Tables/Message.py" />
         <option value="$PROJECT_DIR$/ORM/Tables/Praise.py" />
-        <option value="$PROJECT_DIR$/WWW/templates/user/message_board.html" />
         <option value="$PROJECT_DIR$/Commands/UserHandler.py" />
         <option value="$PROJECT_DIR$/WWW/templates/user/console.html" />
         <option value="$PROJECT_DIR$/ORM/Tables/Order.py" />
@@ -253,12 +215,13 @@
         <option value="$PROJECT_DIR$/handle_district_to_json.py" />
         <option value="$PROJECT_DIR$/ORM/Tables/MyProductAddress.py" />
         <option value="$PROJECT_DIR$/Install.py" />
-        <option value="$PROJECT_DIR$/WWW/templates/user/start_add_address.html" />
         <option value="$PROJECT_DIR$/WWW/templates/base.html" />
         <option value="$PROJECT_DIR$/Test/areas_test.py" />
-        <option value="$PROJECT_DIR$/WebServer.py" />
+        <option value="$PROJECT_DIR$/WWW/templates/user/message_board.html" />
+        <option value="$PROJECT_DIR$/WWW/templates/user/start_add_address.html" />
         <option value="$PROJECT_DIR$/WWW/templates/user/edit_user_address.html" />
         <option value="$PROJECT_DIR$/WWW/static/user.js" />
+        <option value="$PROJECT_DIR$/WebServer.py" />
       </list>
     </option>
   </component>
@@ -268,9 +231,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="5" />
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-187" />
+    <option name="y" value="228" />
     <option name="width" value="1386" />
     <option name="height" value="786" />
   </component>
@@ -289,6 +252,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,8 +283,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.handle_district_to_json">
+  <component name="RunManager" selected="Python.tmp_test">
     <configuration name="Install" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -658,18 +621,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29727685" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5060514" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3480392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29198185" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3480392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35457516" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -681,6 +644,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39324117" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -788,13 +752,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WWW/templates/user/deposit-history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WWW/templates/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1002,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,34 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WWW/templates/user/message_board.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="25" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WWW/templates/user/show_add_address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WWW/templates/user/start_add_address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="3" column="138" lean-forward="false" selection-start-line="3" selection-start-column="132" selection-end-line="3" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WWW/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="1125" column="13" lean-forward="true" selection-start-line="1119" selection-start-column="12" selection-end-line="1125" selection-end-column="13" />
+        <state relative-caret-position="21375">
+          <caret line="1125" column="13" lean-forward="false" selection-start-line="1119" selection-start-column="12" selection-end-line="1125" selection-end-column="13" />
           <folding>
             <marker date="1515827648834" expanded="false" signature="43939:43955" ph="..." />
             <marker date="1515827648834" expanded="false" signature="44083:44094" ph="..." />
@@ -1076,56 +1005,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32015">
+          <caret line="1685" column="0" lean-forward="false" selection-start-line="1685" selection-start-column="0" selection-end-line="1685" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/handle_district_to_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="82" column="47" lean-forward="true" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+        <state relative-caret-position="19">
+          <caret line="82" column="47" lean-forward="false" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
           <folding>
             <marker date="1515663812492" expanded="true" signature="307:354" ph="select id,pa... b2c_areas" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+    <entry file="file://$PROJECT_DIR$/WWW/templates/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="1685" column="0" lean-forward="false" selection-start-line="1685" selection-start-column="0" selection-end-line="1685" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WWW/templates/user/message_board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="74" column="59" lean-forward="true" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#ons-icon#0;n#ons-button#4;n#div#2;n#ons-list-item#0;n#ons-list#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WWW/templates/user/start_add_address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="33" column="159" lean-forward="true" selection-start-line="33" selection-start-column="159" selection-end-line="33" selection-end-column="159" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#ons-list-item#0;n#ons-list#0;n#ons-card#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WWW/templates/user/show_add_address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="771" column="106" lean-forward="false" selection-start-line="771" selection-start-column="92" selection-end-line="771" selection-end-column="106" />
+        <state relative-caret-position="110">
+          <caret line="659" column="149" lean-forward="false" selection-start-line="659" selection-start-column="149" selection-end-line="659" selection-end-column="149" />
           <folding>
             <element signature="e#8#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WWW/templates/user/edit_user_address.html">
+    <entry file="file://$PROJECT_DIR$/WWW/static/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="94" lean-forward="false" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+        <state relative-caret-position="171">
+          <caret line="339" column="37" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#ons-card#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ons-input#0;n#p#0;n#div#0;n#ons-card#0;n#!!top" expanded="true" />
+            <marker date="1515942569029" expanded="true" signature="21541:21591" ph="..." />
+            <marker date="1515942569029" expanded="true" signature="22054:22072" ph="..." />
+            <marker date="1515942569029" expanded="true" signature="25590:25600" ph="..." />
+            <marker date="1515942569029" expanded="true" signature="25642:25652" ph="..." />
+            <marker date="1515942569029" expanded="true" signature="25864:25878" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WWW/static/user.js">
+    <entry file="file://$PROJECT_DIR$/WWW/templates/user/edit_user_address.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="240" column="6" lean-forward="false" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
-          <folding>
-            <marker date="1515861992145" expanded="true" signature="18996:19046" ph="..." />
-            <marker date="1515861992145" expanded="true" signature="19509:19527" ph="..." />
-            <marker date="1515861992145" expanded="true" signature="23045:23055" ph="..." />
-            <marker date="1515861992145" expanded="true" signature="23097:23107" ph="..." />
-            <marker date="1515861992145" expanded="true" signature="23319:23333" ph="..." />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
