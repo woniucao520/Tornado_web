@@ -8,7 +8,7 @@
      {% for result_user_address in result_user_addresses %}
         <ons-list-item>{{ result_user_address['consignee'] }}
         {% if  result_user_address['is_default'] == 1%}
-            <p style="color:blue">[默认地址]</p>
+            <p id="is_default_address" style="color:blue">[默认地址]</p>
         {% end %}
         </ons-list-item>
          <ons-list-item>
@@ -21,7 +21,7 @@
                             {{','.join(result_user_address['areas']) }}
                         </ons-col>
                     </ons-raw>
-                    <ons-raw>{{ result_user_address['address'] }}</ons-raw>
+                    <ons-raw edit_provice_id={{ result_user_address['provice_id'] }}>{{ result_user_address['address'] }}</ons-raw>
                 </ons-col>
             </div>
 
@@ -31,7 +31,7 @@
          </ons-list-item>
          <ons-list-item>
             <div class="left">
-                <ons-button data-edit-address-id={{result_user_address['id']}}  modifier="quiet" style="padding-top: 0;font-size: 120%;" onclick="fn.User.EditAddress(this)"><ons-icon icon="fa-edit"></ons-icon></ons-button>
+                <ons-button data-edit-address-id={{result_user_address['id']}}  edit_provice_id={{ result_user_address['provice_id'] }}  edit_city_id={{ result_user_address['city_id'] }}  edit_district_id={{ result_user_address['district_id'] }}    modifier="quiet" style="padding-top: 0;font-size: 120%;" onclick="fn.User.EditAddress(this)"><ons-icon icon="fa-edit"></ons-icon></ons-button>
             </div>
             <div class="right">
                 <ons-button  data-delete-address-id={{result_user_address['id']}}  modifier="quiet" style="padding-top: 0;font-size: 120%;" onclick="fn.User.AddressDelete(this)"><ons-icon icon="fa-trash"></ons-icon></ons-button>

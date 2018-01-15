@@ -17,13 +17,13 @@
                 </p>
 
                 <p>
-         <ons-select id="sel-city" modifier="underbar" onclick = "fn.User.Getcity(this)" >
+         <ons-select id="sel-city" modifier="underbar" onclick = "fn.User.GetEditcity(this)" >
                         <option value="{{ user_address.city }}" >{{ edit_user_address['city'] }}</option>
 
                     </ons-select>
                 </p>
                 <p>
-                    <ons-select id="sel-district" modifier="underbar" onclick="fn.User.Getdistrict()">
+                    <ons-select id="sel-district" modifier="underbar" onclick="fn.User.GetEditdistrict()">
                         <option value="{{ user_address.district }}">{{ edit_user_address['district'] }}</option>
                     </ons-select>
                 </p>
@@ -60,9 +60,8 @@
                     $("[input-id='check-set-default']").prop('checked', true);
                     }else{
                     $("[input-id='check-set-default']").prop('checked', false);
-
                     }
                 });
-</script>
+                </script>
                 {% end %}
         </ons-card>
