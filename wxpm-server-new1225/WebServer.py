@@ -669,6 +669,9 @@ class StartAddressHandler(BaseHandler):
             result_dict['id'] = user_address.id
             result_dict['consignee'] = user_address.consignee
             result_dict['mobile'] = user_address.mobile
+            result_dict['provice_id'] = user_address.provice
+            result_dict['city_id'] = user_address.city
+            result_dict['district_id'] = user_address.district
             result_dict['address'] = user_address.address
             result_dict['is_default'] = user_address.is_default
             result_dict['areas'] = []
@@ -697,10 +700,6 @@ class ShopAddressHandler(BaseHandler):
 
         # 获取数据库里的省，市，区的数据
         area_provinces = self.session.query(ChinaAreas.id,ChinaAreas.parent,ChinaAreas.name,ChinaAreas.level).filter(ChinaAreas.level == 1).all()
-        print('一级省：')
-        print(area_provinces)
-
-
         self.render("user/show_add_address.html", area_provinces=area_provinces)
 
 
@@ -728,8 +727,13 @@ class AddressToSqlHandler(BaseHandler):
         print(is_default)
         create_time = datetime.now()
         # 对是否默认进行判断
-
-
+        # 先更新之前的操作，设置为0
+        if is_default:
+            is_default_ids = self.session.query(MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.is_default == 1).order_by(MyProductAddress.updated_at.desc()).all()
+            if len(is_default_ids) > 1:
+                for is_default_id in is_default_ids:
+                    self.session.query(MyProductAddress.is_default,MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.id == is_default_id.id).update({MyProductAddress.is_default:0})
+                    self.session.commit()
 
         # 对应入库
         MyAddress.consignee = consignee
@@ -743,13 +747,9 @@ class AddressToSqlHandler(BaseHandler):
         MyAddress.created_at = create_time
         MyAddress.is_default = is_default
 
-
         self.session.add(MyAddress)
-
         self.session.commit()
         self.session.close()
-
-
         data = {'result': 'success', 'msg':'测试成功啦'}
 
         self.write(json.JSONEncoder().encode(data))
@@ -770,6 +770,15 @@ class UpdateAddressHandler(BaseHandler):
         zipcode = self.get_argument('zipcode')
         is_default = self.get_argument('is_default')
         updated_time =datetime.now()
+
+
+        if is_default:
+            is_default_ids = self.session.query(MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.is_default == 1).order_by(MyProductAddress.updated_at.desc()).all()
+            if len(is_default_ids) > 1:
+                for is_default_id in is_default_ids:
+                    self.session.query(MyProductAddress.is_default,MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.id == is_default_id.id).update({MyProductAddress.is_default:0})
+                    self.session.commit()
+
 
 
         try:
@@ -827,43 +836,9 @@ class EditUserAddressHandler(BaseHandler):
                 if  china_area.id == user_address.district:
                     result_dict['district']=china_area.name
             result_user_addresses.append(result_dict)
-        print("编辑收货地址：")
-        print(result_user_addresses)
+        # print("编辑收货地址：")
+        # print(result_user_addresses)
         self.render("user/edit_user_address.html",edit_user_addresses=result_user_addresses,user_addresses=user_addresses)
-
-    def post(self):
-        edit_address_id = self.get_argument('edit_address_id')
-        user_addresses = self.session.query(MyProductAddress.id, MyProductAddress.consignee, MyProductAddress.mobile,
-                                            MyProductAddress.provice, MyProductAddress.city, MyProductAddress.district,
-                                            MyProductAddress.address, MyProductAddress.zipcode).filter(MyProductAddress.id == edit_address_id)
-        print("POST单独的一份值")
-        print(user_addresses)
-        china_areas = self.session.query(ChinaAreas.id, ChinaAreas.parent, ChinaAreas.name).all()
-        result_user_addresses = []
-        for user_address in user_addresses:
-            result_dict = {}
-            result_dict['id'] = user_address.id
-            result_dict['consignee'] = user_address.consignee
-            result_dict['mobile'] = user_address.mobile
-            result_dict['address'] = user_address.address
-            result_dict['zipcode'] = user_address.zipcode
-
-            for china_area in china_areas:
-                if china_area.id == user_address.provice:
-                    result_dict['provice'] = china_area.name
-                if china_area.id == user_address.city:
-                    result_dict['city'] = china_area.name
-                if china_area.id == user_address.district:
-                    result_dict['district'] = china_area.name
-            result_user_addresses.append(result_dict)
-        self.write(json.JSONEncoder().encode(result_user_addresses))
-
-
-
-
-
-
-
 
 # 删除用户地址：
 class DeleteUserAddressHandler(BaseHandler):
