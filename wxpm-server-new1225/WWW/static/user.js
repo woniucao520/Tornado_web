@@ -232,6 +232,16 @@ window.fn.User.checkaddress = function () {
             if (data.result=='success'){
 
                 ons.notification.alert(data.msg)
+                //记得存储，如果用户设置了默认地址，存储其记录的id
+                var is_default = $('[input-id="check-set-default"]').prop('checked')
+                    // if(is_default == true){
+                    //     localStorage.setItem('default_user_id',data.default_user_id)
+                    //
+                    // }else{
+                    //     is_default =0
+                    // }
+
+
              //todo:做一下页面的延时3s，再跳转到load页面，或者用pushPage()
             // fn.load('shop-address.html'
             fn.pushPage({id:'shop-address.html',title:'add_address_list'})
@@ -332,9 +342,11 @@ window.fn.User.Eidtcheckaddress = function () {
 
 //编辑显示省列表
 window.fn.User.GetEditprovince = function () {
-    var provinceid = $('#sel-province').val();
+    var edit_provice_id = $('#sel-province').val();
     //alert(provinceid);
-    localStorage.setItem('provinceid',provinceid);
+
+    localStorage.setItem('edit_provice_id',edit_provice_id);
+
     //点击切换省的时候，注意清空下面市和区的数据
     $("#sel-province option:not(:first)").hide()
     $("#sel-province option:first-child").text('选择省')  //
@@ -397,6 +409,7 @@ window.fn.User.Getcity = function (target) {
         var select_city = $('#sel-city').children();
         // select_city.remove()
         var provinceid = localStorage.getItem('provinceid');
+        var edit_provice_id = localStorage.getItem('edit_provice_id');
         var len_province = data.length;
         //alert(lencity);
         for (var i = 0; i < len_province; i++) {
@@ -405,6 +418,48 @@ window.fn.User.Getcity = function (target) {
                 var city_parent_id = data[i].province_id;
 
                 if(city_parent_id == provinceid){
+                    var option = '<option value="' + data[i].citys[j].city_id + '">' + data[i].citys[j].city_name + '</option>';
+                    $('#sel-city').children().append(option)
+
+                }
+            }
+        }
+
+    })
+
+}
+
+//编辑页面显示的市id
+window.fn.User.GetEditcity = function (target) {
+  $("#sel-city option:not(:first)").hide()   //删除除第一个以外的元素
+    $("#sel-district option:not(:first)").remove()   //删除第一个以外的元素
+    //市和区的第一个元素
+    $("#sel-city option:first-child").text('选择城市')  //
+    $("#sel-district option:first-child").text('选择区/县')   //
+
+    $.ajax({
+        method: 'post',
+        url: '/user/show_add_address',
+        data: {
+            provinceid: localStorage.getItem('provinceid'),
+
+        },
+        dataType: 'json'
+
+    }).done(function (data) {
+        //显示对应的市
+        var select_city = $('#sel-city').children();
+        // select_city.remove()
+        // var provinceid = localStorage.getItem('provinceid');
+        var edit_provice_id = localStorage.getItem('edit_provice_id');
+        var len_province = data.length;
+        //alert(lencity);
+        for (var i = 0; i < len_province; i++) {
+            var len_city = data[i].citys.length
+            for (var j = 0; j < len_city; j++) {
+                var city_parent_id = data[i].province_id;
+
+                if(city_parent_id == edit_provice_id){
                     var option = '<option value="' + data[i].citys[j].city_id + '">' + data[i].citys[j].city_name + '</option>';
                     $('#sel-city').children().append(option)
 
@@ -453,11 +508,63 @@ window.fn.User.Getdistrict=function () {
     })
 
 }
+//显示编辑页面的区和县
+
+window.fn.User.GetEditdistrict=function () {
+
+   $("#sel-district option:not(:first)").hide()   //隐藏第一个以外的元素
+    var city_id = $("#sel-city").val()
+
+    var edit_provice_id = localStorage.getItem('edit_provice_id');
+
+    $.ajax({
+        method:'post',
+        url: '/user/show_add_address',
+        data: {provinceid: localStorage.getItem('provinceid'),
+        },
+        dataType: 'json'
+    }).done(function (data) {
+        var len_province = data.length;
+
+        for(i=0; i< len_province; i++) {
+            var len_city = data[i].citys.length;
+            for (j = 0; j < len_province; j++) {
+                if (data[i].province_id == edit_provice_id)
+            {
+
+                    var district_length = data[i].citys[j].areas.length;
+                    var sel_city_id = data[i].citys[j].city_id;
+                    for (k = 0; k < district_length; k++) {
+                        if (sel_city_id == city_id) {
+                            var option = '<option value="' + data[i].citys[j].areas[k].area_id + '">' + data[i].citys[j].areas[k].area_name + '</option>';
+                            $('#sel-district').children().append(option)
+
+                        }
+                    }
+                }
+            }
+        }
+
+    })
+
+}
+
+
+
+
 
 //编辑用户地址
 window.fn.User.EditAddress = function (target) {
     var edit_address_id = $(target).attr('data-edit-address-id');
+    var edit_provice_id = $(target).attr('edit_provice_id');
+    var edit_city_id = $(target).attr('edit_city_id');
+    var edit_district_id = $(target).attr('edit_district_id');
+
     localStorage.setItem('edit_address_id', edit_address_id);
+    localStorage.setItem('edit_provice_id',edit_provice_id),
+    localStorage.setItem('edit_city_id',edit_city_id),
+    localStorage.setItem('edit_district_id',edit_district_id),
+
 
     $.ajax({
         method: 'post',
