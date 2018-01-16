@@ -1,4 +1,4 @@
-# utf:8
+# coding:utf8
 import copy
 
 import os.path
@@ -7,7 +7,6 @@ import yaml
 from datetime import datetime
 
 from handle_district_to_json import HandleAreas
-
 
 import tornado
 from tornado import escape, gen, httpserver, ioloop, web, websocket
@@ -730,7 +729,7 @@ class AddressToSqlHandler(BaseHandler):
         # 先更新之前的操作，设置为0
         if is_default:
             is_default_ids = self.session.query(MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.is_default == 1).order_by(MyProductAddress.updated_at.desc()).all()
-            if len(is_default_ids) > 1:
+            if len(is_default_ids) >= 1:
                 for is_default_id in is_default_ids:
                     self.session.query(MyProductAddress.is_default,MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.id == is_default_id.id).update({MyProductAddress.is_default:0})
                     self.session.commit()
@@ -774,7 +773,7 @@ class UpdateAddressHandler(BaseHandler):
 
         if is_default:
             is_default_ids = self.session.query(MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.is_default == 1).order_by(MyProductAddress.updated_at.desc()).all()
-            if len(is_default_ids) > 1:
+            if len(is_default_ids) >= 1:
                 for is_default_id in is_default_ids:
                     self.session.query(MyProductAddress.is_default,MyProductAddress.id,MyProductAddress.consignee).filter(MyProductAddress.id == is_default_id.id).update({MyProductAddress.is_default:0})
                     self.session.commit()
