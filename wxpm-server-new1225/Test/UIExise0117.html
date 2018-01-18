@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+
+<template id="page1.html">
+  <ons-page id="page1">
+
+        <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button onclick="fn.load('profile.html')">
+                    <ons-icon icon="ion-ios-arrow-back"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">商品订单</div>   <!--该页面需要展示地址列表页（编辑，删除，显示默认地址等),所以需要单独渲染出来-->
+            <div class="right">
+                <ons-toolbar-button onclick="">
+                    <ons-icon icon="md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+        </ons-toolbar>
+
+      <!--显示订单列表-->
+      <ons-list>
+          <ons-list-item  order-id="88" modifier="chevron" tappable>
+              <ons-row >
+                <ons-row style="border-bottom: 1px dashed #f1f1f1;margin-bottom: 10px">
+                    <ons-col style="text-align: left;">编号：SN00000077</ons-col>
+                    <ons-col style="padding-left: 65%">2018-01-18 14:36:00</ons-col>
+                </ons-row>
+              <ons-row>
+                  <ons-col  width="100px"><img src="http://localhost/storage/_59f999d8Ne19794f4.jpg" width="100px" height="100px"></ons-col>
+                    <ons-col style="margin-left: 15px;text-align:left;line-height:25px">
+                        <ons-row>商品:埃力（ALEATE）苹果8手机壳</ons-row>
+                        <ons-row>数量：1</ons-row>
+                        <ons-row>积分：500</ons-row>
+                        <ons-row>状态：已付款</ons-row>
+                    </ons-col>
+              </ons-row>
+
+
+
+
+
+
+
+
+
+              </ons-row>
+          </ons-list-item>
+      </ons-list>
+
+
+
+  </ons-page>
+</template>
+<script>
+
+</script>
+
+</body>
+</html>
