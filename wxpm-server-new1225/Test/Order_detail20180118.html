@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+
+<template id="page1.html">
+  <ons-page id="page1">
+
+        <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button onclick="fn.load('profile.html')">
+                    <ons-icon icon="ion-ios-arrow-back"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">商品订单</div>   <!--该页面需要展示地址列表页（编辑，删除，显示默认地址等),所以需要单独渲染出来-->
+            <div class="right">
+                <ons-toolbar-button onclick="">
+                    <ons-icon icon="md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+        </ons-toolbar>
+
+      <!--显示单个订单详情-->
+        <ons-card>
+            <ons-list>
+                <ons-list-header>订单信息</ons-list-header>
+                <ons-list-item>
+                    <ons-row style="margin-top:10px ">
+                        <ons-col>订单编号：</ons-col>
+                        <ons-col style="padding-right:40%">SN0000000077</ons-col>
+                    </ons-row>
+                    <ons-row style="margin-top:10px ">
+                        <ons-col>订单状态：</ons-col>
+                        <ons-col style="padding-right:40%">已付款</ons-col>
+                    </ons-row>
+                    <ons-row style="margin-top:10px ">
+                        <ons-col>下单时间：</ons-col>
+                        <ons-col style="padding-right:40%">2018-12-20 16:25:26</ons-col>
+                    </ons-row>
+                    <ons-row style="margin-top:10px ">
+                        <ons-col>数量：</ons-col>
+                        <ons-col style="padding-right:40%">1</ons-col>
+                    </ons-row>
+                    <ons-row style="margin-top:10px ">
+                        <ons-col>消费积分：</ons-col>
+                        <ons-col style="padding-right:40%">1000</ons-col>
+                    </ons-row>
+                </ons-list-item>
+            <ons-list-header>订单商品</ons-list-header>
+            <ons-list-item>
+                <ons-row>
+                    <ons-col><img src="http://localhost/storage/_59f999d8Ne19794f4.jpg" width="100px" height="100px"></ons-col>
+                    <ons-col  style="padding-right:80%; line-height: 30px ">
+
+                        <ons-row>
+                            <ons-col>数量：</ons-col>
+                            <ons-col>1</ons-col>
+                        </ons-row>
+                        <ons-row>
+                            <ons-col>积分：</ons-col>
+                            <ons-col>500.00</ons-col>
+                        </ons-row>
+                        <ons-row>
+                            <ons-col>小计：</ons-col>
+                            <ons-col>10000:00</ons-col>
+                        </ons-row>
+                    </ons-col>
+                </ons-row>
+            </ons-list-item>
+            <ons-list-header>收货地址</ons-list-header>
+                <ons-list-item>
+                <ons-row  style="line-height: 28px">
+                    <ons-row>
+                        <ons-col>收件人：</ons-col>
+                        <ons-col style="padding-right:40%">曹学伟</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col>手机号码：</ons-col>
+                        <ons-col style="padding-right:40%">15861247225</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col>省市区：</ons-col>
+                        <ons-col style="padding-right:40%">江苏，扬州，高邮</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col>地址：</ons-col>
+                        <ons-col style="padding-right:40%">朝阳大道135号</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col>邮政编码：</ons-col>
+                        <ons-col style="padding-right:40%">225600</ons-col>
+                    </ons-row>
+                </ons-row>
+                </ons-list-item>
+
+
+            </ons-list>
+        </ons-card>
+
+
+
+
+  </ons-page>
+</template>
+<script>
+
+</script>
+
+</body>
+</html>
