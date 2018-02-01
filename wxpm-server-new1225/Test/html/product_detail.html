@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ons-navigator swipeable id="myNavigator" page="product-detail.html"></ons-navigator>
+<template id="product-detail.html">
+    <ons-page id="product-detail">
+            <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button onclick="fn.load('profile.html')">
+                    <ons-icon icon="ion-ios-arrow-back"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">商品详情</div>   <!--该页面需要展示地址列表页（编辑，删除，显示默认地址等),所以需要单独渲染出来-->
+            <div class="right">
+                <ons-toolbar-button onclick="">
+                    <ons-icon icon="md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+        </ons-toolbar>
+        <ons-card>
+          <!--  /*图片轮播*/-->
+        </ons-card>
+        <ons-card>
+            <!--/*商品基本信息-->
+            <ons-row style="line-height: 35px;">
+                <ons-row style="font-weight: bold"> 江南水乡</ons-row>
+                <ons-row>价格：<b>2500.00</b></ons-row>
+                <ons-row>
+                    <ons-col>规格：以实物为主</ons-col>
+                    <ons-col>编号：SN0004</ons-col>
+                </ons-row>
+                <ons-row>重量：5.00g</ons-row>
+                <ons-row>
+                 数量：   <!--数量增加减少的按钮-->
+                <form>
+                <input class="inputclass" id="input2" type=button value="-">
+                <input  style="width: 25px;text-align: center" class="inputclass" id="input0" type=text name=amount value="1">
+                <input class="inputclass" id="input1" type=button value="+">
+                </form>
+
+                </ons-row>
+            </ons-row>
+        </ons-card>
+        <ons-card>
+            /*商品详细信息*/
+
+        </ons-card>
+
+
+
+
+
+    </ons-page>
+</template>
+
+
+</body>
+</html>

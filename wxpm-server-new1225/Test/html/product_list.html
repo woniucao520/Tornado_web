@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ons-navigator swipeable id="myNavigator" page="product-lists.html"></ons-navigator>
+
+
+
+<template id="product-lists.html">
+  <ons-page id="product-list">
+
+        <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button onclick="fn.load('profile.html')">
+                    <ons-icon icon="ion-ios-arrow-back"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">我的商城</div>   <!--该页面需要展示地址列表页（编辑，删除，显示默认地址等),所以需要单独渲染出来-->
+            <div class="right">
+                <ons-toolbar-button onclick="">
+                    <ons-icon icon="md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+        </ons-toolbar>
+
+    <ons-list>
+        <ons-list-item order-id="88" modifier="chevron" tappable>
+            <ons-row>
+                <ons-col width="100px"><img src="http://localhost/storage/_59f999d8Ne19794f4.jpg" width="120px" height="100px"></ons-col>
+                <ons-col style="line-height: 35px;margin-left: 40px">
+                    <ons-row>商品名： 苏州精品</ons-row>
+                    <ons-row>价格： 1000,000.00</ons-row>
+                    <ons-row>商品编号： SN00005</ons-row>
+                </ons-col>
+            </ons-row>
+
+
+
+        </ons-list-item>
+    </ons-list>
+  </ons-page>
+</template>
+
+</body>
+</html>

@@ -18,7 +18,7 @@
             width: 600px;
             height: 400px;
             border: 3px solid #333;
-            overflow: hidden;  /*超出本身div的范围隐藏*/
+            overflow: hidden;
         }
         #list{
             position: absolute; /*绝对定位*/
@@ -65,9 +65,9 @@
             text-align: center;
             color: #fff;
             background-color: RGBA(0,0,0, .3);
-            cursor: pointer;
+            cursor: pointer;   <!--鼠标样式 -->
         }
-        .arrow:hover{
+        .arrow:hover{   <!--鼠标滑过时的颜色 -->
             background-color: RGBA(0,0,0, .7);
         }
         #container:hover .arrow{
@@ -112,34 +112,70 @@
 <script>
  $(document).ready(function () {
         //获取节点元素
-          var list = $('#list');
-          var buttons = $('#buttons');
-          var offest = $('#list').position().left;
-
+        var list = $('#list');
+        var buttons = $('#buttons');
+        var button_on = $('.on').attr("class")
+        var span = $("span").length   <!--jquery 获取页面所有的span标签；js用getElementsByTagName-->
+        var index = 1
      //点击左右按钮，切换图片
-
        $('#prev').bind('click',function () {
            //往左，偏移量-600px
-
                 var current_left  = $('#list').position().left - 600 + 'px'
-                $('#list').css('left',current_left)
+                $('#list').css('left',current_left);
+               var new_left = $('#list').position().left;
+               if(new_left < -3600){
+                   new_left = -1200 + 'px'
+                   $('#list').css('left',new_left)
+               }
 
+               /*底下小圆按钮的点击效果*/
 
+                  <!--获取的是html元素，而不是一个对象，所以不可以用addClass获取会提示没有该方法-->
 
+               for(var i=0;i<span;i++){
+                    if($('span')[i].className == 'on'){
+                        $('span')[i].className = ''
+                    }
+                }
+                if(index<=1){
+                    index = 5
+                }
+                else{
+                     index -= 1
+                }
+
+               $('span')[index-1].className = 'on'
        })
 
 
               $('#next').bind('click', function () {
+
                   //往右，偏移量 + 600px，注意单位
                   // $('#list').position().left +  600
+                var current_right  = $('#list').position().left + 600 + 'px'
+                $('#list').css('left',current_right);
 
-                  var current_right = $('#list').position().left + 600 + 'px'
-                  $('#list').css('left', current_right)
+                var new_left = $('#list').position().left;
 
+                if(new_left > 0){
+                    var  current_left = -2400 + 'px'
+
+                    $('#list').css('left',current_left)
+                }
+                for(var i=0;i<span;i++){
+                    if($('span')[i].className == 'on'){
+                        $('span')[i].className = ''
+                    }
+                }
+                if(index>4){
+                    index = 1
+                }
+                else{
+                     index += 1
+                }
+             
+                  $('span')[index-1].className = 'on'
               })
-
-
-
  });
 </script>
 
